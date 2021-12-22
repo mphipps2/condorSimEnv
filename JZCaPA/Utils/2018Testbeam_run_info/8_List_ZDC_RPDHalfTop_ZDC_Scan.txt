@@ -1,0 +1,35 @@
+Notes
+Scan taken before re-shuffling the channels. RPD configuration (W: working, D: dead): 
+W W W W 
+W W W W 
+D D D D
+D D D D 
+
+ZDC1 HV = 1200 V
+ZDC2 HV = 1150 V
+
+Data | Horiziontal position | Vertical position | additional comments  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000312-0000.prdf    -2250     499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000313-0000.prdf    -3754     499 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000314-0000.prdf    -5250     499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000315-0000.prdf    -6651     499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000316-0000.prdf    -1552     499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000317-0000.prdf     -850     499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000318-0000.prdf     1250     499 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000319-0000.prdf    -2254   -1498
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000320-0000.prdf    -2250   -3501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000321-0000.prdf    -2250    2500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000322-0000.prdf    -2250    4500
+
+Calib (note unusual labelling) 
+Only for the ZDC: 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000324-0000.prdf  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000325-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000329-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000330-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000333-0000.prdf
+For the RPD check previous calibs
+e.g. /eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000255-0000.prdf and take into account that the bottom half is not read-out
+
+Survey
+https://edms.cern.ch/ui/file/2053718/1/2018.12.03_H4_ATLAS_ZDC_docx_cpdf.pdf

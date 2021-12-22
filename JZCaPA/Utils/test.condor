@@ -1,0 +1,9 @@
+Executable              = zdc
+Arguments               = run1.mac test34.root
+Universe                = vanilla
+GetEnv                  = True
+transfer_input_files    = run1.mac,$ENV(JZCaPA)/Utils/PurgMag3D.TABLE,$ENV(JZCaPA)/Utils/Survey_2018.xml,$ENV(JZCaPA)/Utils/Alignment_2018.xml,$ENV(JZCaPA)/Utils/config.cfg
+Output                  = logs/job.$(cluster).$(process)
+Error                   = logs/job.$(cluster).$(process)
+Log                     = test1.log
+Queue

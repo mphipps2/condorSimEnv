@@ -1,0 +1,40 @@
+Notes
+RPD re-mapped to get the two middle rows read-out. New configuration (D: read-out dead, W: read-out working) 
+D D D D 
+W W W W
+W W W W 
+D D D D 
+
+ZDC1 HV =  1200 V
+ZDC2 HV =  1150 V
+
+Data | Horiziontal position | Vertical position | additional comments  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000335-0000.prdf   -2254   4499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000336-0000.prdf   -2254   2500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000337-0000.prdf   -2254    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000338-0000.prdf   -2254   1500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000339-0000.prdf   -1550    500    LHC fill started mid run
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000341-0000.prdf   -1550    500    Finished collecting data started in run 339
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000342-0000.prdf   -849     500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000343-0000.prdf   1255     500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000344-0000.prdf   -3749    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000345-0000.prdf   -5249    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000346-0000.prdf   -6651    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000348-0000.prdf   -3750    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000349-0000.prdf   -5250    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000350-0000.prdf    -850    500
+
+Calib (note unusual labelling)
+Only for the ZDC:
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000324-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000325-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000329-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000330-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000333-0000.prdf
+For the RPD check calibs taken a bit afterwards but always with this RPD configurations, e.g. 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000383-0000.prdf
+
+
+Survey
+https://edms.cern.ch/ui/file/2053718/1/2018.12.03_H4_ATLAS_ZDC_docx_cpdf.pdf
+

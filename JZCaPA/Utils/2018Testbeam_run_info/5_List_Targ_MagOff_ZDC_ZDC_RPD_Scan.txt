@@ -1,0 +1,28 @@
+Notes
+10 m coaxial cable in the chain for ZDC1 signal. Attenuation to be taken into account
+
+ZDC1 HV = 1235 V
+ZDC2 HV = 1190 V
+
+Data | Horiziontal position | Vertical position | additional comments  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000214-0000.prdf  -2250    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000215-0000.prdf  -2250    500   [re-Run, the last had no beam on]
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000216-0000.prdf   3350    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000217-0000.prdf  -5250    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000218-0000.prdf  -6650    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000219-0000.prdf  -1550    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000220-0000.prdf   -850    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000221-0000.prdf   1250    500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000222-0000.prdf  -2250  -1500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000223-0000.prdf  -2250  -3500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000229-0000.prdf  -2250  -3505
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000230-0000.prdf  -2250   2497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000231-0000.prdf  -2250   4501
+
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000224-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000225-0000.prdf
+
+Survey
+https://edms.cern.ch/ui/file/2053081/1/2018.11.29_H4_ATLAS_ZDC.pdf
+

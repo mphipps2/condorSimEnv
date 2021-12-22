@@ -1,0 +1,34 @@
+Notes
+Ringing of the RPD. HV of the ZDCs 1800 V. Table in D position (1250,500). 8/16 of the RPD working (middle raws)
+GOLIATH	I: 3600A B: -1.48 T
+
+ZDC1 HV: 1800 V
+ZDC2 HV: 1800 V
+
+Data
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000362-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000363-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000364-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000365-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000366-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000367-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000368-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000369-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000370-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000371-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000372-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000373-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000374-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000375-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000376-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000377-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000378-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000379-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000380-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000381-0000.prdf
+
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/2/calibration_00000383-0000.prdf
+
+Survey 
+https://edms.cern.ch/ui/file/2053717/1/2018.12.03_H4_ATLAS_ZDC.pdf

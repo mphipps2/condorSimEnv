@@ -1,0 +1,33 @@
+Notes
+Last runs not well commented on the log-book. Difficult to understand exactly what was going on. 
+The comments you find for some runs are interpretation of non-entries in the log-book... 
+B-70 associated to the two bottom rows. 
+
+ZDC1 HV = 1380 V
+ZDC2 HV = 1335 V
+
+Data | Horiziontal position | Vertical position | additional comments  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000280-0000.prdf -2257    501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000281-0000.prdf -1551    501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000282-0000.prdf  -851    501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000283-0000.prdf  1250    501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000284-0000.prdf -3752    501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000285-0000.prdf -5250    501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000287-0000.prdf -6649    501 run stopped LHC filling
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000288-0000.prdf -6649    501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000289-0000.prdf -2250  -1499 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000290-0000.prdf -2250  -3502 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000291-0000.prdf -2250  -3502 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000292-0000.prdf -2250   2500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000293-0000.prdf -2250   2500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000294-0000.prdf -2250   6500   Doubts on B-70 tripping tbc 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000295-0000.prdf -2250   6500  Doubts on B-70 tripping tbc
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000296-0000.prdf -2250   6500  Doubts on B-70 tripping tbc 
+
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000255-0000.prdf (for RPD)
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000264-0000.prdf (for ZDC HV)
+
+Survey
+https://edms.cern.ch/ui/file/2053718/1/2018.12.03_H4_ATLAS_ZDC_docx_cpdf.pdf
+

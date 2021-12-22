@@ -1,0 +1,25 @@
+Notes
+Coaxial cable 10 m long installed to bring the signal in the counting room (untracked). Attenuation is affecting ZDC1 signal 
+DRS4 delay changed to avoid cut of the signals on the first edge. Now signal centered in the time spectra 
+ZDC1 HV = 1235 V
+ZDC2 HV = 1190 V
+
+Data | Horiziontal position | Vertical position | additional comments  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000190-0000.prdf    -2248    497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000191-0000.prdf    -3748    497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000192-0000.prdf    -5248    497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000193-0000.prdf    -6650    497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000194-0000.prdf    -1550    497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000195-0000.prdf    -852      497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000196-0000.prdf    1256     497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000197-0000.prdf   -2255    -1494
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000198-0000.prdf   -2255    -3501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000199-0000.prdf   -2255    2505
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000200-0000.prdf   -2255    4498
+
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000224-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000225-0000.prdf
+
+Survey
+https://edms.cern.ch/ui/file/2053081/1/2018.11.29_H4_ATLAS_ZDC.pdf

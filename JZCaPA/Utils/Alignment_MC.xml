@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<root>
+	 <Alignment> <!-- Use "none" in place of detector to turn it off-->
+        <run>1</run>
+        <x_table>0</x_table>
+        <y_table>0</y_table>
+        <upstream_Det>RPD</upstream_Det>
+        <mid_Det>none</mid_Det>
+        <downstream_Det>none</downstream_Det>
+        <magnet_On>false</magnet_On>
+        <target_In>false</target_In>
+        <lead_In>false</lead_In>
+    </Alignment>
+</root>

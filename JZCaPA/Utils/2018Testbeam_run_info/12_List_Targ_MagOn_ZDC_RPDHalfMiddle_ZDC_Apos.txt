@@ -1,0 +1,23 @@
+Notes 
+ZDCs HV both at 1800 V. RPD ringing. 8/16 of the RPD working (middle raws) 
+GOLIATH	I: 3600A B: -1.48 T
+
+ZDC1 HV: 1800 V
+ZDC2 HV: 1800 V
+
+Data
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000382-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000384-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000385-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000386-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000387-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000388-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000389-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000390-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000391-0000.prdf
+
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/2/calibration_00000383-0000.prdf
+
+Survey 
+https://edms.cern.ch/ui/file/2053717/1/2018.12.03_H4_ATLAS_ZDC.pdf 

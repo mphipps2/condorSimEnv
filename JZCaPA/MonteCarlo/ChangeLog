@@ -1,0 +1,31 @@
+$Id:$
+-------------------------------------------------------------------
+
+     =========================================================
+                              atlasZDC
+     =========================================================
+
+                         ChangeLog file
+                    -----------------------
+	This file should be used to briefly summarize all major
+	modifications introduced in the code and keep track of
+	all tags.
+
+     ----------------------------------------------------------
+     * Reverse chronological order (last date on top), please *
+     ----------------------------------------------------------
+04/04/20 C. Lantz
+- Complete rebuild
+  - Deleted unnecessary classes (mainly SharedData) and replaced with
+    functionality built into Geant4
+  - Added DetectorMessenger and PhysicsMessenger
+  - Condensed hit classes into one
+
+02/01/19 A. Tate
+- Adapted for use in JZCaPA environment
+
+07/31/18 M. Phipps
+- Fixed global geometry bug. Fixed rod numbering issue. Cleaned up code
+
+07/31/18 M. Phipps
+- Created.

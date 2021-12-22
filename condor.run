@@ -1,0 +1,16 @@
+executable = /home/mphipps2/sim/MC_script.sh 
+arguments = -m cluster_run.mac -o output_$(Process).root -f true $(Process) myGeneration.root
+output =  /scratch/mphipps2/out/run_$(Process).out   
+log =  /scratch/mphipps2/log/run_$(Process).log      
+error = /scratch/mphipps2/err/run_$(Process).err     
+requirements = TARGET.isDatacenter == true
+request_memory = 1GB
+should_transfer_files = YES    
+when_to_transfer_output = ON_EXIT 
+InitialDir = /projects/engrit/jzcapa/Users/Mike/condorJobs/ToyFermi_qpFibers_LHC_noPedNoise/Output/ 
+transfer_input_files = /home/mphipps2/sim/JZCaPA_INSTALL/bin/cluster_run.mac, /home/mphipps2/sim/Utils/myenv.sh, /home/mphipps2/sim/JZCaPA_INSTALL/bin/zdc, /home/mphipps2/sim/JZCaPA_INSTALL/bin/geometry.mac, /home/mphipps2/sim/EvGen/V1Gen.C, /home/mphipps2/sim/Utils/get_entry.C, /home/mphipps2/sim/Utils/CondenseEvent.C, /home/mphipps2/sim/JZCaPA_INSTALL/bin/rpdMLTrainingAnalysis, /home/mphipps2/sim/Digi/outputDigitization.cc, /home/mphipps2/sim/JZCaPA_INSTALL/Utils/ConfigFileMC.xml, /home/mphipps2/sim/JZCaPA_INSTALL/Utils/Alignment_MC.xml, /home/mphipps2/sim/JZCaPA_INSTALL/Utils/Timing_data/MC_0.32GHz.txt, /home/mphipps2/sim/Input/Energy_dist.root, /home/mphipps2/sim/Input/model1635response.txt  
+transfer_output_files = OutputA/event$(Process)A.root, OutputB/event$(Process)B.root
+# submit as a factory with an idle jobs limi
+max_idle = 100
+queue 1
+

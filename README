@@ -1,0 +1,9 @@
+This is the final condor submission directory for results shown in Michael Phipps' thesis.
+
+To run as a condor job, update all directory information in condor.run. Then submit through "condor_submit condor.run". That's it.
+
+If there are any simulation scenario changes update that in the simulation config file. If the fiber type or active area length changes, the FastSimOpModelFiber.cc file needs updated as the active fiber length and capture angle are hard coded in a couple places. It would be better to make this non-hardcoded once and for all.
+
+During the simulation process, I've found jobs will occassionally hang. To check what's hanging run "condor_q -run | less" to see the jobs displayed in order of total run time. If jobs are taking more than a few hours, it's a good bet they are hanging. To fix this, you should hold the jobs through "condor_hold <username>" and after the jobs have had a chance to hold for a minute release them with "condor_release <username>". This usually fixes the problem.
+
+After jobs are finished you will need to make pickle files from the output root files. To do that go to Utils/ and update the MakePickleFile.py file accordingly. To speed this process up I usually make Pickle files of 10k events at a time. This is done through the shell scripts in Utils/PickleScripts. Depending how many events you simulated, you can open multiple terminals to run these run_pickle_x.sh files in parallel. Just do a "source run_pickle_x" from each new terminal and then be patient. Once all the pickle files are created, you need to merge all the sub files. To do this, go to Utils/ and update MergePickles.py accordingly and then run with "python3 MergePickles.py". The merging is quick. Once you have the merged pickle file I transfered that locally to my rpdReco data directory to do train and test different reconstruction models

@@ -1,0 +1,27 @@
+Notes
+Coaxial cable 10 m long removed. Now ZDC1 signal is not attenuated anymore 
+ZDC1 HV =  1380 V
+ZDC2 HV =  1335 V
+
+Data | Horiziontal position | Vertical position | additional comments  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000258-0000.prdf -2248   499 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000259-0000.prdf -3751   499 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000260-0000.prdf -5252   499  B-70 tripped in the middle 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000261-0000.prdf -6650   499  CORRUPTED, B-70 tripped for the full run, half of the RPD not readout
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000262-0000.prdf -1551   499  CORRUPTED, B-70 tripped for the full run, half of the RPD not readout
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000266-0000.prdf -1551   499  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000267-0000.prdf  -845   499 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000268-0000.prdf  1257   499 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000269-0000.prdf -5249   499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000270-0000.prdf -6656   499
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000274-0000.prdf -2257 -1497
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000275-0000.prdf -2257 -3500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000276-0000.prdf -2257  2501
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/2/run_00000277-0000.prdf -2257  6501
+ 
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000255-0000.prdf (for RPD) 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000264-0000.prdf (for ZDC HV)
+
+Survey
+https://edms.cern.ch/ui/file/2053718/1/2018.12.03_H4_ATLAS_ZDC_docx_cpdf.pdf

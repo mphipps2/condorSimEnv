@@ -1,0 +1,114 @@
+# Macro for RPD training in LHC
+#
+# To be run preferably in batch, without graphics:
+#
+# 31 TeV Pb ion
+
+# Initialize kernel
+/run/initialize
+/random/setSeeds 30835  1 
+
+/control/verbose 2
+/run/verbose 2
+/tracking/verbose 0
+/run/particle/verbose 0
+
+#################################
+# Physics List Options
+#################################
+/run/particle/SelectList FTFP_BERT
+#/run/setCut 10. mm
+#/run/setCutForAGivenParticle e+ 10. mm
+/run/setCutForRegion ZDC1_absorber 4. mm
+/run/setCutForRegion ZDC2_absorber 10. mm
+#/run/setCutForRegion ZDC3_absorber 10. mm
+#/run/setCutForRegion ZDC4_absorber 10. mm
+
+#################################
+# gps Options
+#################################
+
+#/gps/particle ion
+#/gps/ion 82 208 0 0.0
+#/gps/energy 31.2 TeV
+
+# using alphas is useful if you would like to visualize the tracks (Pb ions require much more computing time)
+#/gps/particle ion
+#/gps/ion 2 4 0 0.0
+#/gps/energy 600 GeV
+
+#/gps/particle proton
+#/gps/particle neutron
+/gps/particle pi0
+
+# the beam energy is in gaussian profile
+#/gps/ene/type Gauss
+#/gps/ene/mono 150 GeV
+#/gps/ene/sigma 1 MeV
+
+
+# General particle source
+#/gps/pos/type Beam
+#/gps/pos/shape Circle
+#/gps/pos/centre 0. 0. -150. mm
+#/gps/pos/radius 1. mm
+#/gps/pos/sigma_r 2. mm
+
+#
+#
+# the incident surface is in the x-y plane
+#/gps/pos/rot1 1 0 0
+#/gps/pos/rot2 0 1 0
+#
+#
+# the beam is travelling along the z-axis
+#/gps/ang/rot1 0 1 0
+#/gps/ang/rot2 1 0 0
+#/gps/ang/type beam1d
+# the beam angular dispersion
+#/gps/ang/sigma_r 0.00 deg
+# 1.0milliradians  = 0.057 deg
+
+
+
+#################################
+# Prebuilt beam Options
+# Note: if /beam/type is selected all gps options will be ignored
+# Descriptions of commands can be found in the UI command tree
+#################################
+
+/beam/type lhc
+/beam/pos 0. 0. -127. m
+/beam/projectBeam -0.5 m
+#/beam/nPrimaries 1
+/beam/LHC/horizontalCrossingAngle 0 mrad
+#/beam/LHC/verticalCrossingAngle 0.100 mrad
+
+
+
+#################################
+# Event Generator Options
+# Note: if /beam/GeneratorModel is selected it will be used. Otherwise, the default
+# behavior for the selected environment will be used
+#################################
+
+#ToyV1 generator variables
+#/beam/GeneratorModel toyV1
+#/beam/FragmentationPtDistribution func
+#/beam/MultiplicityDistribution func
+#/beam/SetMeanFragmentationPt .150
+#/beam/SetMeanCollisionPt .150
+#/beam/MinSpectators 0
+#/beam/MaxSpectators 120
+
+
+#/beam/SetMinimmPseudorapidity 9.0
+#/beam/GeneratorModel dpmjet
+#/beam/input generatedEvents.root
+#/beam/randomizeReactionPlane true
+
+
+
+
+#if using these commands in interactive mode to visualize, use this to allow more events to be displayed (do not use in batch mode)
+#/vis/ogl/set/displayListLimit 1000000

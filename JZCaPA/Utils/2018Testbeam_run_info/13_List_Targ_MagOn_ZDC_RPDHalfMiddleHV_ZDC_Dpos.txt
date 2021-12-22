@@ -1,0 +1,16 @@
+Notes
+RPD w/o ringing. HV of the ZDCs 1800 V. Table in D position. 8/16 of the RPD working (middle raws). Higher Voltage on the SiPM (69.9 V)
+Doubt on DACXs (were there operational?)
+GOLIATH I: 3600A B: -1.48 T 
+
+ZDC1 HV: 1800 V
+ZDC2 HV: 1800 V
+
+Data
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/4/run_00000404-0000.prdf
+
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/calibration_00000383-0000.prdf (not yet uploaded)
+
+Survey 
+https://edms.cern.ch/ui/file/2053717/1/2018.12.03_H4_ATLAS_ZDC.pdf

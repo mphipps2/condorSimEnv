@@ -1,0 +1,29 @@
+Notes
+RPD configuration:
+D D D D
+W W W W 
+W W W W 
+D D D D 
+
+ZDC1 HV =  Scanning (see table) 
+ZDC2 HV =  Scanning (see table)
+
+Data | Horiziontal position | Vertical position | ZDC1(V) | ZDC2(V) 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000351-0000.prdf   -2250  500      1250  1200
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000352-0000.prdf   -2250  500      1300  1250
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000353-0000.prdf   -2250  500      1350  1300
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000354-0000.prdf   -2250  500      1400  1350
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000355-0000.prdf   -2250  500      1450  1400
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000356-0000.prdf   -2250  500      1450  1450
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000357-0000.prdf   -2250  500      1450  1500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000358-0000.prdf    1250  500      1450  1500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/3/run_00000359-0000.prdf    1250  500      1450  1500
+
+Calib
+No Calibration runs for all the voltages of the ZDCs. For the RPD, refer to previous scan 
+
+Survey
+https://edms.cern.ch/ui/file/2053718/1/2018.12.03_H4_ATLAS_ZDC_docx_cpdf.pdf
+
+
+

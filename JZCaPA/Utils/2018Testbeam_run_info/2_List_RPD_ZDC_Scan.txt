@@ -1,0 +1,36 @@
+Notes
+Changes in the SiPM bias. Please check comments around id 294 to have the correct picture. Calibs run with comment id ~340 
+ZDC1 HV = 1300 V
+ZDC2 HV = 1300 V
+
+Data | Horiziontal position | Vertical position | additional comments  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000152-0000.prdf -1250	 3500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000153-0000.prdf -1250  1500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000154-0000.prdf -1250  -500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000155-0000.prdf -1250 -2500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000157-0000.prdf -1250 -5500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000158-0000.prdf -1250 -1500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000159-0000.prdf -1250   500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000160-0000.prdf -1250  2500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000161-0000.prdf   750  3500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000162-0000.prdf   750  1500  
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000163-0000.prdf   750  -500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000164-0000.prdf   750 -2500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000165-0000.prdf -3250 -2500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000166-0000.prdf -3250  -500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000167-0000.prdf -3250  1500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000168-0000.prdf -3250  3500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000169-0000.prdf -5250  3500
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000170-0000.prdf -5250  1500 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/run/1/run_00000171-0000.prdf -5250  -500
+
+Calib
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000172-0000.prdf 
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000173-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000174-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000175-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000176-0000.prdf
+/eos/atlas/atlascerngroupdisk/det-zdc/TB_2018Pb/TestBeam2018/calibration/1/calibration_00000177-0000.prdf
+
+Survey
+https://edms.cern.ch/ui/file/2052246/1/2018.11.26_H4_ATLAS_ZDC_docx_cpdf.pdf (remove the first ZDC) 
